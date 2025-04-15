@@ -1,0 +1,90 @@
+LOCUS       NM_001250672            1498 bp    mRNA    linear   PLN 18-OCT-2018
+DEFINITION  Glycine max cationic peroxidase 2 (PRX2), mRNA.
+ACCESSION   NM_001250672
+VERSION     NM_001250672.2
+KEYWORDS    RefSeq.
+SOURCE      Glycine max (soybean)
+  ORGANISM  Glycine max
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50
+            kb inversion clade; NPAAA clade; indigoferoid/millettioid clade;
+            Phaseoleae; Glycine; Glycine subgen. Soja.
+REFERENCE   1  (bases 1 to 1498)
+  AUTHORS   Gijzen M, Miller SS, Bowman LA, Batchelor AK, Boutilier K and Miki
+            BL.
+  TITLE     Localization of peroxidase mRNAs in soybean seeds by in situ
+            hybridization
+  JOURNAL   Plant Mol. Biol. 41 (1), 57-63 (1999)
+   PUBMED   10561068
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BT099403.1.
+            On Sep 4, 2012 this sequence version replaced NM_001250672.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AK244214.1, AK286032.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMN00264986, SAMN00264988
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1498              BT099403.1         1-1498              c
+FEATURES             Location/Qualifiers
+     source          1..1498
+                     /organism="Glycine max"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:3847"
+                     /chromosome="17"
+                     /map="17"
+     gene            1..1498
+                     /gene="PRX2"
+                     /note="cationic peroxidase 2"
+                     /db_xref="GeneID:547513"
+     misc_feature    10..12
+                     /gene="PRX2"
+                     /note="upstream in-frame stop codon"
+     CDS             25..1020
+                     /gene="PRX2"
+                     /EC_number="1.11.1.7"
+                     /note="class III plant peroxidase"
+                     /codon_start=1
+                     /product="cationic peroxidase 2 precursor"
+                     /protein_id="NP_001237601.1"
+                     /db_xref="GeneID:547513"
+                     /translation="MAPKGLIFLAVLCFSALSLSRCLAEDNGLVMNFYKESCPQAEDI
+                     IKEQVKLLYKRHKNTAFSWLRNIFHDCAVQSCDASLLLDSTRRSLSEKETDRSFGLRN
+                     FRYIETIKEALERECPGVVSCADILVLSARDGIVSLGGPHIPLKTGRRDGRRSRADVV
+                     EQFLPDHNESISAVLDKFGAMGIDTPGVVALLGAHSVGRTHCVKLVHRLYPEIDPALN
+                     PDHVPHILKKCPDAIPDPKAVQYVRNDRGTPMILDNNYYRNILDNKGLLIVDHQLAND
+                     KRTKPYVKKMAKSQDYFFKEFSRAITLLSENNPLTGTKGEIRKQCNAANKHHEEP"
+     sig_peptide     25..96
+                     /gene="PRX2"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+ORIGIN      
+        1 gagcaagagt gaagagcgaa gagaatggct cccaagggtt taatcttttt ggctgtgtta
+       61 tgcttctcag cactgtcact gagtcgttgt cttgcggagg ataatggact tgttatgaac
+      121 ttctacaagg aatcatgccc tcaggctgaa gacatcatca aagaacaagt caagcttctc
+      181 tacaagcgcc acaagaacac tgctttctcc tggctcagaa acatcttcca tgactgtgct
+      241 gttcagagtt gtgatgcttc actgttgctg gactccacaa gaaggagctt gtctgagaag
+      301 gaaacagata gaagctttgg gttgagaaat ttcaggtaca ttgagaccat caaagaagct
+      361 ttggaaaggg aatgcccagg agttgtttcc tgtgctgata tcctcgttct ctctgccaga
+      421 gatggcattg tttcgctagg aggtccccat atccctctta aaacaggaag aagggatggt
+      481 agaaggagca gagccgatgt ggtagagcag ttcctcccag accacaatga atccatttct
+      541 gcagttcttg acaagtttgg tgccatggga attgacaccc ccggcgtagt tgcattgctt
+      601 ggagcacaca gtgttggtcg aacccattgt gtgaagttgg tgcaccgttt gtacccagag
+      661 attgatccag ctctgaaccc tgaccacgtc cctcacattc tgaagaagtg ccctgatgcc
+      721 attccagacc ctaaggccgt gcagtacgtg agaaacgacc gtggcacccc catgattcta
+      781 gacaacaatt actacagaaa tatattggac aacaagggct tgttgatagt ggatcaccaa
+      841 ctagccaatg acaagaggac caagccttat gtgaagaaaa tggccaagag ccaggactat
+      901 ttcttcaagg agttttctag agccattact ttgctctctg agaacaaccc tctcactggc
+      961 acaaagggtg agatcagaaa gcagtgcaat gctgccaaca agcaccatga ggagccttaa
+     1021 ttgcttcccg cttaatttgg gccttgaatt ttcttcccct tctctatgtg gaagaaatct
+     1081 gtaagatatt atgcaaaaaa taattaaggt gtttttcttt aaatgggttg gttgattggt
+     1141 tcaatgaacc gatcaagacc acagcaggtt catggggatg cgaggattaa gacgctttgt
+     1201 tttttaatct tccgatgtca ctcttgtttg ttagtttgtt tttttatttt ttatttcaat
+     1261 aagtactgtg caagtaggtt agagttgggt agaagggcat gttcatggtg ttaattacta
+     1321 tgttatgtat gcatgtgagt gctgctatcg atggcaagat gtcaatgtat gcgtgtagtg
+     1381 ctgttatcga tgagagtgaa aatgtttatg atatccacac taataaagct agcttgctct
+     1441 tgctacataa taaataaatc atggcccacg gtcattatac aaaaaaaaaa aaaaaaaa
+//
+

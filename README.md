@@ -14,8 +14,9 @@ Built as part of a bioinformatics course project to develop hands-on experience 
 - ✅ Find restriction enzyme cut sites
 - ✅ Convert GenBank files to FASTA format
 - ✅ Compute background codon frequencies
-
 ---
+# 🧬 ORF Finder
+
 
 ## 📁 Required Files
 

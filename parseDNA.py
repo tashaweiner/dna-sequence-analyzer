@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Apr  1 15:37:32 2022
-BIFS617
 @author: Natasha Weiner 
 """
 
